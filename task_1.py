@@ -1,6 +1,7 @@
 import heapq
 
 
+
 def min_cost_to_connect_cables(cable_lengths):
     # Ініціалізація мін-купи
     heapq.heapify(cable_lengths)
